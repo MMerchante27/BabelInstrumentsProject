@@ -1,0 +1,24 @@
+{
+  "name": "babelInstruments",
+  "homepage": "https://github.com/MMerchante27/BabelInstruments",
+  "authors": [
+    "Miriam Merchante <miriam.merchante@babel.es>"
+  ],
+  "description": "BabelInstruments",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.3",
+    "angular-route": "^1.5.3",
+    "moment": "^2.12.0"
+  }
+}

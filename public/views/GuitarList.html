@@ -1,0 +1,12 @@
+<div ng-controller="GuitarListController">
+    <h1>Guitars</h1>
+    <div class="jumbotron" ng-show="uiState=='blank'">
+        <p class="lead">No data here</p>
+    </div>
+    <div class="alert alert-danger" ng-show="uiState == 'error'">
+        Error while loading data
+    </div>
+    <div ng-include="'views/ProgressBar.html'" ng-show="uiState == 'loading'">
+    </div>
+    <instrument-item-list ng-show="uiState == 'ideal'" model='model' show-more="showMore(stuff)" ></instrument-item-list>
+</div>

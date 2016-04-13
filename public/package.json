@@ -1,0 +1,30 @@
+{
+  "name": "babelInstruments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMerchante27/babelInstruments.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMerchante27/babelInstruments/issues"
+  },
+  "homepage": "https://github.com/MMerchante27/babelInstruments#readme",
+  "dependencies": {
+    "grunt": "^0.4.5"
+
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+
+  }
+}

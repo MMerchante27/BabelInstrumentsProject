@@ -1,0 +1,5 @@
+<div ng-controller="DrumsDetailController">
+    <div ng-include="'views/ProgressBar.html'" ng-show="uiState == 'loading'">
+    </div>
+   <instrument-detail ng-show="uiState == 'ideal'" model='model' add-favorite="addFavorite(stuff)" comprar="comprar(stuff)" trust-src="trustSrc(stuff)"></instrument-detail>
+</div>
